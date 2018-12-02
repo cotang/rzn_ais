@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.css" /> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.js"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/patternfly-bootstrap-treeview@2.1.7/dist/bootstrap-treeview.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+  <style>
+    #searchbar{
+      margin-bottom: 20px;
+    }
+    .node-hidden{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Searchbar + tree</h1>
+    <form action="">
+      <div id="searchbar">
+        <select name="select2-field" id="select2-field"></select>
+      </div>
+    </form>
+    <div id="tree"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
